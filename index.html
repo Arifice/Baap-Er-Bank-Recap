@@ -8,6 +8,44 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1 class="text-8xl">hello world</h1>
+    <header>
+        <h1 class="  py-4 shadow-md font-black text-center  text-3xl lg:text-6xl"><span class="lg:text-8xl  text-purple-950">FuncTionaL</span> <span class="text-3xl lg:text-8xl text-pink-700">BanK !!!</span> </h1>
+    </header>
+    <main class="container mx-auto my-2 lg:my-10">
+        <section>
+            <div class="grid grid-cols-3  gap-2 p-4 lg:gap-8">
+                <div class="bg-[#293462] shadow-lg space-y-2 p-2 lg:p-8 font-bold rounded-md text-white">
+                    <h3 class="lg:text-4xl ">Deposit</h3>
+                    <h3 class="lg:text-5xl ">$<span id="deposit-total">00</span></h3>
+                </div>
+                <div class="bg-[#F31559] shadow-lg space-y-2 p-2 lg:p-8 font-bold rounded-md text-white">
+                    <h3 class="lg:text-4xl ">Withdraw</h3>
+                    <h3 class="lg:text-5xl ">$<span id="deposit-total">00</span></h3>
+                </div>
+                <div class="bg-[#7A4069] shadow-lg space-y-2 p-2 lg:p-8 font-bold rounded-md text-white">
+                    <h3 class="lg:text-4xl ">Balance</h3>
+                    <h3 class="lg:text-5xl ">$<span id="deposit-total">00</span></h3>
+                </div>                
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 p-4 lg:gap-8">
+                <div class="bg-[#183A1D] shadow-lg space-y-4 p-2 lg:p-8 font-bold rounded-md">
+                    <h3 class="lg:text-3xl text-white">Please Deposit</h3>
+                    <input class="w-11/12 p-1 lg:p-2 rounded-md lg:text-2xl" type="text" placeholder="Enter ammount">
+                    <button class="bg-[#F8DE22]  py-1 lg:text-2xl px-3 rounded-md block">Deposit</button>
+                </div>
+                <div class="bg-[#2EB086] shadow-lg space-y-4 p-2 lg:p-8 font-bold rounded-md">
+                    <h3 class="lg:text-3xl text-white">Please withdraw</h3>
+                    <input class="w-11/12 p-1 lg:p2 rounded-md lg:text-2xl" type="text" placeholder="Enter ammount">
+                    <button class="bg-[#F8DE22]  py-1 lg:text-2xl px-3 rounded-md block">Withdraw</button>
+                </div>                               
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#F0A04B] py-5">
+        <div>
+            <p class="text-sm text-center">&copy;  Ariful Islam</p>
+        </div>
+    </footer>
 </body>
 </html>
