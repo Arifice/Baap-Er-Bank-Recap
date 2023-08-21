@@ -20,24 +20,24 @@
                 </div>
                 <div class="bg-[#F31559] shadow-lg space-y-2 p-2 lg:p-8 font-bold rounded-md text-white">
                     <h3 class="lg:text-4xl ">Withdraw</h3>
-                    <h3 class="lg:text-5xl ">$<span id="deposit-total">00</span></h3>
+                    <h3 class="lg:text-5xl ">$<span id="withdraw-total">00</span></h3>
                 </div>
                 <div class="bg-[#7A4069] shadow-lg space-y-2 p-2 lg:p-8 font-bold rounded-md text-white">
                     <h3 class="lg:text-4xl ">Balance</h3>
-                    <h3 class="lg:text-5xl ">$<span id="deposit-total">00</span></h3>
+                    <h3 class="lg:text-5xl ">$<span id="balance-total">1440</span></h3>
                 </div>                
             </div>
 
             <div class="grid grid-cols-2 gap-2 p-4 lg:gap-8">
                 <div class="bg-[#183A1D] shadow-lg space-y-4 p-2 lg:p-8 font-bold rounded-md">
                     <h3 class="lg:text-3xl text-white">Please Deposit</h3>
-                    <input class="w-11/12 p-1 lg:p-2 rounded-md lg:text-2xl" type="text" placeholder="Enter ammount">
-                    <button class="bg-[#F8DE22]  py-1 lg:text-2xl px-3 rounded-md block">Deposit</button>
+                    <input id="deposit-field" class="w-11/12 p-1 lg:p-2 rounded-md lg:text-2xl" type="text" placeholder="Enter ammount">
+                    <button id="btn-deposit" class="bg-[#F8DE22]  py-1 lg:text-2xl px-3 rounded-md block">Deposit</button>
                 </div>
                 <div class="bg-[#2EB086] shadow-lg space-y-4 p-2 lg:p-8 font-bold rounded-md">
                     <h3 class="lg:text-3xl text-white">Please withdraw</h3>
-                    <input class="w-11/12 p-1 lg:p2 rounded-md lg:text-2xl" type="text" placeholder="Enter ammount">
-                    <button class="bg-[#F8DE22]  py-1 lg:text-2xl px-3 rounded-md block">Withdraw</button>
+                    <input id="withdraw-field" class="w-11/12 p-1 lg:p2 rounded-md lg:text-2xl" type="text" placeholder="Enter ammount">
+                    <button id="btn-withdraw" class="bg-[#F8DE22]  py-1 lg:text-2xl px-3 rounded-md block">Withdraw</button>
                 </div>                               
             </div>
         </section>
@@ -47,5 +47,7 @@
             <p class="text-sm text-center">&copy;  Ariful Islam</p>
         </div>
     </footer>
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
 </body>
 </html>
